@@ -2,10 +2,10 @@ app:
   datasource:
     main:
       driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
-      jdbc-url: jdbc:sqlserver://localhost:1433;databaseName=azeniadb
-      password: BadassPassword##@
+      jdbc-url: jdbc:sqlserver://localhost:1433;databaseName=somedb
+      password: some_password
       pool-size: 30
-      username: azenia_user
+      username: some_user
 
 server:
   error:
